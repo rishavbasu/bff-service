@@ -15,6 +15,6 @@ public class BFFService {
 
     @RequestMapping(value = "/bff-service/hello")
     String hello() {
-        return new RestTemplate().getForObject("http://beservice/products/hello", String.class);
+        return new RestTemplate().getForObject("http://be-service/products/hello", String.class);
     }
 }
